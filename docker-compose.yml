@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  cwapp1:
+    image: cwapp1
+    build:
+      context: .
+      dockerfile: cwapp1/Dockerfile
